@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Tola-lemma/HobbyAndDream_API_With_Intertechub/issues"
   },
-  "homepage": "https://github.com/Tola-lemma/HobbyAndDream_API_With_Intertechub#readme"
+  "homepage": "https://github.com/Tola-lemma/HobbyAndDream_API_With_Intertechub#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
