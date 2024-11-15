@@ -6,4 +6,6 @@ app.use(express.json());
 app.get('/',(req, res)=>{
       res.send('Welcome to Simple API project that show case my name, hobby and dream or life Goal!')
 })
+//API
+app.use('/',require('./route/route'))
 app.listen(PORT,()=>console.log(`Server is Running and Listen on Port number ${PORT}...`))
