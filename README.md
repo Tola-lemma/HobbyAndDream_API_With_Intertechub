@@ -8,7 +8,10 @@
 The **HobbyAndDream API** is a lightweight backend application that provides endpoints to showcase personal information. It's designed to demonstrate the simplicity and power of building APIs with **Express.js**.
 
 ---
-
+## **Live Deployment**
+This project is deployed and accessible online.
+Visit the API at: https://intertechub.onrender.com 
+Open your browser or a tool like <strong>Postman</strong> and test the following endpoints.
 ## **Endpoints**
 
 ### 1. **GET `/`**
@@ -106,8 +109,12 @@ The **HobbyAndDream API** is a lightweight backend application that provides end
   ```text
        {
    "dream": "To become a skilled full-stack developer and create impactful solutions using technology.",
-  "message": "Keep learning, coding, and innovating. Every line of code you write brings you closer to making a difference in the world. Believe in your abilities, embrace challenges, and let your passion guide you to success!"}
+  "message": "Keep learning, coding, and innovating. Every line of code you write brings you closer to making a difference in the world. Believe in your abilities, embrace challenges, and let your passion guide you to success!"
+  }
   ```
+###  **NB `Endpoints not listed above will return an error.`**
+
+
 ---
 
 ## **How to Run This Project on Your Local Machine**
