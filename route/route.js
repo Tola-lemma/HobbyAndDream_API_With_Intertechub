@@ -8,5 +8,9 @@ router.get('/name',fullName.getFullName)
 //Hobbies
 const hobby = require('../Controller/Hobby')
 router.get('/hobby',hobby.getHobby)
+
+//dream
+const dream =require('../Controller/Dream')
+router.get('/dream',dream.getDream)
 module.exports = router
 
